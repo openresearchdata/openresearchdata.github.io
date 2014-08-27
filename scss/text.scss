@@ -15,7 +15,7 @@ span.round-big {
     display: inline-block;
     width: 80px;
     border-radius: 80px;
-    background-color: $green;
+    background-color: #2980b9;
     color: #fff;
     font-size: 40px;
     line-height: 80px;
@@ -58,6 +58,14 @@ h4.feature__title {
     }
 }
 
+.masthead {
+    background: #2980b9;
+}
+
+.masthead div h2 {
+    color: white;
+    font-size: 35px;
+}
 
 .img-responsive {
     width: 100%;
