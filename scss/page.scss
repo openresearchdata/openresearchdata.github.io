@@ -35,11 +35,11 @@ body {
 }
 
 header {
-    position: fixed;
+    //position: fixed;
     width: 100%;
     border-bottom: 2px solid #fff;
     background-color: #fff;
-    font-family: 'LFTEtica-Bold', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .brand {
@@ -60,20 +60,18 @@ header {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    font-family: 'LFTEtica-SemiBold', sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
 }
 
 .navigation__link {
-    display: block;
-    padding: 0 30px;
-    color: $green;
+    color: $blue;
     text-decoration: none;
-    line-height: 60px;
 }
 
 
 .navigation__link--active {
-    background-color: $green;
+    background-color: $blue;
     color: #fff;
 }
 
@@ -103,7 +101,7 @@ section {
 
     span.round-big {
         background-color: #fff;
-        color: $green;
+        color: $blue;
     }
 
     .quote-text {
