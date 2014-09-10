@@ -27,6 +27,12 @@ span.round-big {
     margin: 0 auto;
     margin-bottom: 30px;
     color: #999;
+
+}
+
+.quote-text>li {
+    margin-top: 1em;
+    font-weight: bold;
 }
 
 h1,h2,h3,h4,h5 {
@@ -68,7 +74,7 @@ h4.feature__title {
 }
 
 #mc_embed_signup {
-    background: #fff;
+    background: #F8F8F8;
     clear:left;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
